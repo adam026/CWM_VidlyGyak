@@ -1,0 +1,21 @@
+﻿@model CWM_VidlyGyak.Models.Custumer
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>@Model.Name</h2>
+
+@if (Model.Birthdate != null)
+{
+    <ul>
+        <li>Name: @Model.Name</li>
+        <li>Birthdate: @Model.Birthdate</li>
+    </ul>
+}
+else
+{
+    <ul>
+        <li>Name: @Model.Name</li>
+    </ul>
+}
+

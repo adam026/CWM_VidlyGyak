@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CWM_VidlyGyak", "CWM_VidlyGyak\CWM_VidlyGyak.csproj", "{05A53E3B-807D-43A8-A71B-F1FA9AAF760E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Testing|Any CPU = Testing|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05A53E3B-807D-43A8-A71B-F1FA9AAF760E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05A53E3B-807D-43A8-A71B-F1FA9AAF760E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05A53E3B-807D-43A8-A71B-F1FA9AAF760E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05A53E3B-807D-43A8-A71B-F1FA9AAF760E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05A53E3B-807D-43A8-A71B-F1FA9AAF760E}.Testing|Any CPU.ActiveCfg = Testing|Any CPU
+		{05A53E3B-807D-43A8-A71B-F1FA9AAF760E}.Testing|Any CPU.Build.0 = Testing|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0426DF21-68AF-4F6A-AB6E-C0199200167C}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,17 @@
+﻿@model List<CWM_VidlyGyak.Models.Movie>
+@{
+    ViewBag.Title = "Details";
+}
+<ul>
+    @foreach (var movie in Model)
+    {
+        <li>Name: @movie.Name</li>
+        <li>Genre: @movie.Genre.Name</li>
+        <li>Relesase Date: @movie.ReleaseDate.ToString("U")</li>
+        <li>Date Added: @movie.DateAdded.ToString("U") </li>
+        <li>Number In Stock: @movie.NumberInstock</li>
+    }
+</ul>
+    
+
+
